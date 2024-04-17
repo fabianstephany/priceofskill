@@ -1,6 +1,7 @@
 # What is the Price of a Skill - Data repository.
+### When using this data, please cite our work as: Stephany, F., & Teutloff, O. (2024). What is the price of a skill? The value of complementarity. Research Policy, 53(1), 104898. ###
 
-## Variable annotation of skill_dictonary.csv. When using this data, please cite our work as: Stephany, F., & Teutloff, O. (2024). What is the price of a skill? The value of complementarity. Research Policy, 53(1), 104898. ###
+### Variable annotation of skill_dictonary.csv / skill_dictionary.rda
 
 * n_worker: Number of workers possessing each skill.
 * n_projects: Number of projects utilising each skill.
@@ -28,3 +29,5 @@
 * degree_weighted: Weighted degree centrality, taking into account the strength or weight of the connections.
 * pagerank_weighted: Weighted PageRank centrality.
 * ai_skills: A binary indicator (0 or 1) showing whether a skill is considered an AI-related skill.
+
+### The file edge_list.csv contains the edge list of skills used to create the network of skills. Weights refer to the number of projects that skills have been jointly applied in.
